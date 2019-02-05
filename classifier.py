@@ -14,7 +14,7 @@ vectorizer = CountVectorizer(analyzer = "word", tokenizer = None, preprocessor =
                              max_features = 5000)
 
 train_data_features = vectorizer.fit_transform(X_train)
-print("########## Freq train calculated ##########\n")
+print("########## Dictionary built ##########\n")
 test_data_features = vectorizer.transform(X_test)
 
 model = MultinomialNB()
