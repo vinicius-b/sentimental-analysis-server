@@ -1,6 +1,6 @@
 # sentimental-analysis-server
 
-This is a simple and powerfull Machine Learning sentiment analysis service.
+This is a simple and powerfull Machine Learning sentiment analysis service. You can find a simple tutorial of how it was built [here](https://medium.com/@vini.bandeira.vb/creating-your-own-sentiment-analysis-service-to-classify-portuguese-phrases-eb2fb6613eb1)
 
 ## To run
 
