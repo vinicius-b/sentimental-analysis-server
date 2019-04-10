@@ -21,6 +21,14 @@ python3 flask_app.py
 curl -X POST -F 'phrase=YOUR_PHRASE' http://localhost:5000/classify
 ```
 
+### Result
+As a result, you will receive a JSON with the phrase classification:
+```json
+{
+  "sentiment": "Positivo"
+}
+```
+
 ## Building a new model
 
 To build a new model you need to download dataset [here](https://drive.google.com/file/d/11pKJEeJ44qL1cVmllZyd4o26HkYXG3Yn/view?usp=sharing), unzip it into the application path, delete `model.joblib` and run `classifier.py`:
